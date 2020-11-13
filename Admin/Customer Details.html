@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Customer Details</title>
+	<style>
+		*{margin: 0; padding: 0 ; } 
+*{ text-decoration: none; }
+.clearfix { overflow: auto; }
+.wrapper {
+	margin: 0 auto;
+	width: 1200px;
+
+	background-color:#E8ECF5 ;
+		}
+header {
+	margin: 0 auto;
+	width: 1200px;
+	background: linear-gradient(#7FB5F1,white,#7FB5F1);
+
+}.top-bar{
+	width: 100%;
+	background: #005EBB;
+}
+
+.top-bar-links{
+	padding: 15px;
+	float: right;
+}
+
+.top-bar-links ul{
+	list-style: none;
+}
+
+.top-bar-links ul li{
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.top-bar-links ul li a{
+
+	color: white;
+}
+
+.top-bar ul li a:hover{
+	color: black;
+}
+.site-search{
+	padding: 10px 10px 10px 10px;
+	margin: 15px;
+	float: right;
+	background: #182666 ;
+	border-radius: 10px;
+}
+
+.site-search input{
+	border: 0;
+	float: left;
+	background-color: #ABB1CC;
+}
+
+.site-search button{
+	width: 18px;
+	height: 18px;
+	background: url(img/icons/search.png);
+	border: 0;
+	float: right;
+	color: blue;
+}
+
+nav {
+	width: 100%;
+	background: blue;
+	background: linear-gradient(#003087,#005EBB,#003087);
+	text-align: center;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav ul li{
+	display: inline;
+}
+nav ul li a{
+	color: white;
+	text-transform: uppercase;
+	margin: 25px 10px 25px 10px;
+	display: inline-block;
+}
+
+nav ul li a:hover{
+	color: black;
+}
+.button{
+	background-color:#E8ECF5
+}
+.title {
+	
+	margin-bottom: 50px;
+margin-left: 500px;
+
+}
+.boder {
+	background-color: #E8ECF5  ;
+}
+.title h1 {
+	
+  font-size: 42px;
+  background: -webkit-linear-gradient(black,#07153D,#667EBF , #07153D,black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.search-bar1{
+	padding: 10px 10px 10px 10px;
+	margin: 5px;
+	float: right;
+	background: #182666 ;
+	border-radius: 10px;
+}
+
+.search-bar1 input{
+	border: 0;
+	float: left;
+	background-color: #ABB1CC;
+}
+
+.search-bar1 button{
+	width: 18px;
+	height: 18px;
+	background: url(img/icons/search.png);
+	border: 0;
+	float: right;
+	color: blue;
+}
+
+table{
+	margin: 0 auto;
+		width: 1200px;
+		margin-top: 10px;
+	
+	
+	}
+	
+	td{
+		width: 1200px;
+		
+		text-align:left;
+		background: #809fff;
+		
+	}
+	
+		
+	
+	th{
+		color: white;
+		background: #435585 ;
+		padding: 15px;
+	}
+	.table,td,th:hover {
+  opacity: 95%;
+}
+  .table,th:hover {
+  opacity: 85%;
+}
+
+
+
+</style>
+	</head>
+	
+	<body>
+<header>
+	<img src="OO.jpg" alt="Girl in a jacket" width="100" height="50">
+</header>
+<div class="wrapper">
+	<div class="top-bar clearfix" >
+			<div class="site-search">
+				<form method = "get" action ="Drug_Stock_Page.html" >
+					<input type="search" name="search-box">
+					<button type="submit"></button>
+				</form>
+			</div><!--site-search-->
+			<div class="top-bar-links">
+				<ul>
+					<li><a href="#">Log Out</a></li>
+					
+				</ul>
+			</div><!--top-bar-links-->
+		</div><!--top-bar-->
+		<nav>
+			<ul>
+				<li><a href="#">Drug Stock</a></li>
+				<li><a href="#">Pharmacist Registration</a></li>
+				<li><a href="#">Delivery Person Registration</a></li>
+				<li><a href="#">Customer Details</a></li>
+					<li><a href="#">Supplier Registration</a></li>
+			</ul>
+
+		</nav>
+		<div class = "boder">
+		
+	
+	<div class="title">
+		<h1>Customer Details</h1>
+		
+	</div>
+	
+		<div class="search-bar1">
+			
+		
+		<form action="index_submit" method="get" accept-charset="utf-8">
+			<input type="text" placeholder="Username">
+			<button type="submit"></button>
+		</form>
+
+			
+		</div><!--search-bar1-->
+		
+
+<table width="100%">
+	<tr>
+			<th>Number</th>
+			<th>CustomerId</th>
+			<th>UserName</th>
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>DOB</th>
+			<th>Email</th>
+			<th>Gender</th>
+			<th>Contact Number</th>
+			<th>NIC</th>
+		    <th>Address</th>
+			
+			
+
+	</tr>
+
+	</table>
+
+
+		</div><!--wrapper-->
+</div><!--boder-->
+</body>
+</html>
