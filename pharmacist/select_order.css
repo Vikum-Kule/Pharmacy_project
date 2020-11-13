@@ -1,0 +1,65 @@
+.requested {
+    height: 40%;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    margin-top: 60px;
+    background-color: #41B6E6;
+    font-size: 15px;
+}
+
+#request {
+    padding: 10px;
+    width: 100%;
+}
+
+#request td,
+#request th {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#request th {
+    color: white;
+    background-color: blue;
+}
+
+#request tr:nth-child(even) {
+    background-color: white;
+}
+
+.accepted {
+    height: 40%;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    margin-top: 350px;
+    background-color: #41B6E6;
+    font-size: 15px;
+}
+
+#accept {
+    padding: 10px;
+    width: 100%;
+}
+
+#accept td,
+#accept th {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#accept th {
+    color: white;
+    background-color: blue;
+}
+
+#accept tr:nth-child(even) {
+    background-color: #41B6E6;
+}
