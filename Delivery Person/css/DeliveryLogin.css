@@ -1,0 +1,182 @@
+* { margin: 0; padding: 0; box-sizing: border-box;}
+
+body { font: 16px Arial, "Helvetica Neue", Helvetica, sans-serif; }
+
+.wrapper{ 
+
+background-image: url("https://chicagohealthonline.com/wp-content/uploads/2020/03/AdobeStock_274131656-1170x700.png");
+  width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap }
+
+header { width: 1200px;
+	background: linear-gradient(#7FB5F1,white);
+}
+a {
+	text-decoration: none;
+	font-variant: bold;
+}
+
+nav ul {
+	list-style: none;
+}
+nav ul li {
+	display: inline;
+}
+nav {
+	background: #003087 ;
+	width: 1200px;
+}
+nav	ul li a { 
+display: inline-block;
+padding: 10px 10px;
+color: white;
+ }
+ nav ul li a:hover {
+ 	background: #2C7AD1 ;
+ }
+ .mobnav ul li { 
+ 	width : 100px; 
+ 	display: block;
+  }
+  .mobnav h3 {
+  	padding: 15px;
+  	background: #5F93CB ;
+  }
+  .mobnav {
+  	display: none;
+  	width: 100px;
+  }
+  .mobnav ul li a {
+  width: 100%;
+  padding: 15px;
+  border-bottom: 1px solid #3B618B ;
+  }
+
+  @media screen and (max-width:500px){
+  .wrapper {
+    width: 100%;
+  }
+  .mobnav {
+    display: block;
+  }
+  nav ul {
+    display: none;
+  }
+ 
+    .site-search {
+      width: 100%;
+    }
+
+     span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+  .login {
+
+    margin-left: 0px;
+    width: 100%;
+  }
+ .logform {
+  margin-left: 0px;
+  width: 100%;
+ }
+  
+ }
+ .site-search {
+  padding: 0px 10px;
+  margin-top: 10px;
+  float: right;
+  border-radius: 10px;
+  width: 600px;
+margin-bottom: 20px;
+}
+.site-search input{
+  border: 0;
+  padding: 0 10px;
+  border-radius: 10px;
+  height: 20px;
+  float: left;
+  background: white ;
+}
+.site-search button {
+  background: #5261C1 ;
+  color: white;
+  padding: 0px 10px;
+  border-radius: 10px;
+  border: 0px;
+  height: 20px;
+  float: left;
+  width: 100px;
+}
+.site-search button:hover {
+  background: #1E2B81;
+}
+
+.container input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.logform:hover {
+  opacity: 80%;
+}
+.container button {
+  background-color: #0C1F4D ;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.container button:hover {
+  opacity: 0.8;
+}
+.logform{
+
+  
+background:#367FAD;
+}
+
+.logform h1{
+  font-variant: bold;
+  text-align: center;
+  padding: 50px;
+  border-bottom: 5px solid #709699 ;
+}
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #12727A ;
+  margin-bottom: 50px;
+}
+
+.imgcontainer {
+ 
+  text-align: center;
+  width: 400px;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */

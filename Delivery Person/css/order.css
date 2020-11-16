@@ -1,0 +1,142 @@
+* { margin: 0; padding: 0; box-sizing: border-box;}
+
+body { font: 16px Arial, "Helvetica Neue", Helvetica, sans-serif; }
+
+
+
+.wrapper{ 
+background-image: url(https://insightplus.mja.com.au/wp-content/uploads/2020/03/for-rural-and-regional-pharmacists-covid-19-is-logistical-nightmare-472.jpg);
+  width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap }
+
+header { width: 1200px;
+  background: linear-gradient(#7FB5F1,white);
+}
+a {
+  text-decoration: none;
+  font-variant: bold;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline;
+}
+nav {
+  background: #003087 ;
+  width: 1200px;
+}
+nav ul li a { 
+display: inline-block;
+padding: 10px 10px;
+color: white;
+ }
+ nav ul li a:hover {
+  background: #2C7AD1 ;
+ }
+ .mobnav ul li { 
+  width : 100px; 
+  display: block;
+  }
+  .mobnav h3 {
+    padding: 15px;
+    background: #5F93CB ;
+  }
+  .mobnav {
+    display: none;
+    width: 100px;
+  }
+  .mobnav ul li a {
+  width: 100%;
+  padding: 15px;
+  border-bottom: 1px solid #3B618B ;
+  }
+  @media screen and (max-width:1200px){
+    .table {
+      width: 100%;
+    }
+}
+ @media screen and (max-width:600px){
+  .wrapper {
+    width: 100%;
+  }
+  .mobnav {
+    display: block;
+  }
+  nav ul {
+    display: none;
+  }
+ 
+    .site-search {
+      width: 100%;
+    }
+    .table {
+      width: 100%;
+    }
+    
+ }
+ .site-search {
+  padding: 0px 10px;
+  margin-top: 10px;
+  float: right;
+  border-radius: 10px;
+  width: 1200px;
+
+}
+.site-search input{
+  border: 0;
+  padding: 0 10px;
+  border-radius: 10px;
+  height: 20px;
+  float: left;
+  background: #AEBEF0 ;
+}
+.site-search button {
+  background: #5261C1 ;
+  color: white;
+  padding: 0px 10px;
+  border-radius: 10px;
+  border: 0px;
+  height: 20px;
+  float: left;
+}
+.site-search button:hover {
+  background: #1E2B81;
+}
+table{
+  border: 1px solid black;
+  margin: 0 auto;
+    width: 100%;
+    margin-top: 10px;
+  margin-bottom: 20px;
+  
+  }
+  
+  td{
+    width: 600px;
+    
+    text-align:left;
+    background: #809fff;
+    
+  }
+  
+    
+  
+  th{
+    width: 600px;
+    color: white;
+    background:#005EB8 ;
+    padding: 15px;
+  }
+  .table h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  .table {
+    height: 600px;
+    background: #448EB3 ;
+  }
+  .table:hover {
+  opacity: 90%;
+}
+  
