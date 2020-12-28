@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+.leftside {
+    height: 90%;
+    width: 21%;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    margin-top: 70px;
+    background-color: #00A9CE;
+    font-size: 15px;
+}
+
+.leftside .table1 {
+    width: 100%;
+}
+
+.right-bottum {
+    float: left;
+    height: 50%;
+    width: 77.5%;
+    position: fixed;
+    top: 40%;
+    left: 22%;
+    text-align: center;
+    background-color: #41B6E6;
+    font-size: 20px;
+}
+
+#table2 {
+    right: 5px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+#table2 input {
+    border-radius: 5px;
+}
+
+#second_row {
+    padding-top: 10px;
+}
+
+.order_medicine {
+    position: fixed;
+    left: 22%;
+    overflow-x: scroll;
+    height: 40%;
+    width: 79%;
+    font-size: 15px;
+}
+#right-up1{
+
+    float: left;
+    height: 23%;
+    width: 77.5%;
+    position: fixed;
+    top: 10%;
+    left: 22%;
+    text-align: center;
+    background-color: #41B6E6;
+    font-size: 20px;
+
+}
+
+#right-up{
+    float: left;
+    height: 5%;
+    width: 77.5%;
+    position: fixed;
+    top: 34%;
+    left: 22%;
+    text-align: center;
+    background-color: #41B6E6;
+    font-size: 20px;
+}
+
+#right-up a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 4px 15px;
+  margin-top: 2px;
+  background-color: -webkit-linear-gradient(black,#07153D,#667EBF,#07153D,black);
+}
+
+#right-up a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#right-up .previous {
+  background-color:white
+  color: black;
+}
+
+#right-up .next {
+  background-color:  -webkit-linear-gradient(black,#07153D,#667EBF,#07153D,black);
+  color: white;
+}
+
+
+#display {
+    padding: 10px 10px;
+    width: 98%;
+}
+
+#display td,
+#display th {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#display th {
+    color: white;
+    background: -webkit-linear-gradient(black,#07153D,#667EBF,#07153D,black);
+}
+
+#display tr:nth-child(even) {
+    background-color: white;
+}
+
+#buttons {
+    position: fixed;
+    left: 22%;
+    height: 10%;
+    width: 79%;
+    margin-top: 280px;
+    font-size: 15px;
+    background-color: #41B6E6;
+}
+
+#buttons button {
+    margin-top: 10px;
+    font-size: 15px;
+    border-radius: 20px
+}
+
+#submit {
+    margin-top: 10px;
+    margin-right: 20px;
+    float: right;
+    border-radius: 20px
+}
