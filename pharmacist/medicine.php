@@ -1,3 +1,0 @@
-
-			echo "$id";
-			echo "$price";
